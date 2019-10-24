@@ -1,0 +1,52 @@
+.slide-menu {
+    background-color:black;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+}
+
+
+section {
+    float: left;
+}
+
+.menu {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.twitter-icon {
+    margin-top: 10px;
+    margin-left: 35px;
+    width: 15%;
+}
+
+.menu-option {
+    list-style: none;
+    color: #f3f3f3;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#active {
+    list-style: none;
+    color: rgb(29, 161, 242);
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.menu-option button {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color:rgb(29, 161, 242);
+    height: 40px;
+    width: 150px;
+}
+
+.menu-option:hover {
+    color:rgb(29, 161, 242);
+}

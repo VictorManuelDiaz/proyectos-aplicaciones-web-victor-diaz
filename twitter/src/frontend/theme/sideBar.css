@@ -1,0 +1,83 @@
+.right-bar {
+    background-color:black;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+}
+section {
+    float: left;
+}
+
+.search {
+    width: 80%;
+    height: 10%;
+    margin: 2rem;
+    margin-top: 2px;
+    position: relative;
+}
+
+.search input {
+    position: absolute;
+	top: 80%;
+	left: 25%;
+	height: 50%;
+	width: 100%;
+	margin: -15% 0 0 -25%;
+    border-radius: 10px;
+    border: 1px solid rgb(47, 51, 54);
+    background-color: rgb(47, 51, 54);
+    color: #f3f3f3;
+    text-align: left;
+}
+
+
+.search input:hover {
+    border: 1px solid rgb(29, 161, 242);
+}
+
+
+.tendencies-card {
+    width: 80%;
+    height: 30%;
+    margin: 2rem;
+    background-color: rgb(47, 51, 54);
+    border-radius: 10px;
+}
+
+
+.tendencies-card-header {
+    color: #f3f3f3;
+    height: 15%;
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+.tendencies-card-header h5 {
+    margin: 0.5rem;
+}
+
+.tendencies-card-content {
+    height: 85%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.tendencies-card-content-item {
+    border-bottom: 1px solid gray;
+}
+
+.tendencies-card-content-item p {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    text-align: left;
+}
+
+.tendencies-card-content-item a {
+    color: #f3f3f3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+}

@@ -1,0 +1,14 @@
+.title {
+    top: 0%;
+    left: 20%;
+    right: 20%;
+    border: 1px solid rgb(47, 51, 54);
+    background-color:black;
+    color: #f3f3f3;
+    font-size: 20px;
+    width:59.85%;
+    height: 10%;
+    position: absolute;
+}
+
+
